@@ -1,0 +1,19 @@
+{
+  "slot.conduitreforged.conduit": "Conduit",
+  "tooltip.conduitreforged.level": "Conduit portátil · Nivel %s (%s bloques)",
+  "tooltip.conduitreforged.power": " • Poder del conducto",
+  "tooltip.conduitreforged.dolphin": " • Gracia del delfín",
+  "tooltip.conduitreforged.attack": " • Ataca a hostiles cercanos en el agua",
+  "tooltip.conduitreforged.water_only": "Solo funciona en el agua",
+  "gui.conduitreforged.confirm.title": "¿Consumir el marco del conduit?",
+  "gui.conduitreforged.confirm.message": "Los %s bloques del marco se perderán y el conduit pasará a ser portátil (nivel %s). No se puede deshacer.",
+  "message.conduitreforged.consumed": "Marco de %s bloques consumido: conduit portátil de nivel %s. Rómpelo para llevártelo.",
+  "message.conduitreforged.not_active": "El conduit no está activo (necesita al menos 16 bloques de marco).",
+  "message.conduitreforged.not_better": "Este marco no mejora el nivel del conduit.",
+  "message.conduitreforged.equipped": "Conduit equipado: %s",
+  "config.conduitreforged.title": "Conduit Reforged · Configuración",
+  "config.conduitreforged.rain": "Cuenta la lluvia",
+  "config.conduitreforged.confirm": "Confirmar al consumir",
+  "config.conduitreforged.keep": "Conservar conduit al morir",
+  "config.conduitreforged.block": "Bloque que queda al consumir el marco"
+}

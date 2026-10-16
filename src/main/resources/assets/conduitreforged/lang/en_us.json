@@ -1,0 +1,19 @@
+{
+  "slot.conduitreforged.conduit": "Conduit",
+  "tooltip.conduitreforged.level": "Portable conduit · Level %s (%s blocks)",
+  "tooltip.conduitreforged.power": " • Conduit Power",
+  "tooltip.conduitreforged.dolphin": " • Dolphin's Grace",
+  "tooltip.conduitreforged.attack": " • Attacks nearby hostiles in water",
+  "tooltip.conduitreforged.water_only": "Only works in water",
+  "gui.conduitreforged.confirm.title": "Consume the conduit frame?",
+  "gui.conduitreforged.confirm.message": "The %s frame blocks will be lost and the conduit becomes portable (level %s). This cannot be undone.",
+  "message.conduitreforged.consumed": "%s-block frame consumed: level %s portable conduit. Break it to take it with you.",
+  "message.conduitreforged.not_active": "The conduit is not active (needs at least 16 frame blocks).",
+  "message.conduitreforged.not_better": "This frame doesn't improve the conduit's level.",
+  "message.conduitreforged.equipped": "Conduit equipped: %s",
+  "config.conduitreforged.title": "Conduit Reforged · Settings",
+  "config.conduitreforged.rain": "Rain counts as water",
+  "config.conduitreforged.confirm": "Confirm before consuming",
+  "config.conduitreforged.keep": "Keep conduit on death",
+  "config.conduitreforged.block": "Block left after consuming the frame"
+}

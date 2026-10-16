@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "conduitreforged",
+	"version": "${version}",
+	"name": "Conduit Reforged",
+	"description": "Consume el marco de un conduit activo y llévatelo: sus poderes funcionan desde un hueco propio (tecla C) mientras estés en el agua.",
+	"authors": ["CereWare"],
+	"license": "LGPL-3.0-only",
+	"icon": "assets/conduitreforged/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.cereware.conduitreforged.ConduitReforged"],
+		"client": ["com.cereware.conduitreforged.client.ConduitReforgedClient"],
+		"modmenu": ["com.cereware.conduitreforged.client.ModMenuIntegration"]
+	},
+	"mixins": ["conduitreforged.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"cerewareslots": ">=1.0.0"
+	}
+}
