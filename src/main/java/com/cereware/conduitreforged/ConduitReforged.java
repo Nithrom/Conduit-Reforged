@@ -44,7 +44,7 @@ public class ConduitReforged implements ModInitializer {
 		ConduitConfig.load();
 		ItemComponentTooltipProviderRegistry.addLast(CONDUIT_DATA);
 		CerewareSlotsApi.register(new SlotDefinition(SLOT, Component.translatable("slot.conduitreforged.conduit"),
-			Items.CONDUIT, ConduitReforged::isPortableConduit, 1, 20, () -> ConduitConfig.get().keepConduitOnDeath, Identifier.fromNamespaceAndPath("conduitreforged", "slot/conduit")));
+			Items.CONDUIT, ConduitReforged::isPortableConduit, 1, 20, () -> ConduitConfig.get().keepConduitOnDeath));
 
 		PayloadTypeRegistry.serverboundPlay().register(ConsumeConduitPayload.TYPE, ConsumeConduitPayload.CODEC);
 		ServerPlayNetworking.registerGlobalReceiver(ConsumeConduitPayload.TYPE,
